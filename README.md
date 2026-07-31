@@ -20,7 +20,8 @@ Opened `traffic.pcapng` in Wireshark. Noticed repeated small TCP connections on 
 
 📸 *(Packet list showing repeated 8080 connections and loopback traffic)*
 
----
+<img width="1274" height="749" alt="Screenshot_2026-07-31_07-36-31" src="https://github.com/user-attachments/assets/997c30a4-0245-46cc-9ce0-b901cba79cce" />
+
 
 ## 📂 Finding the Dropped Script
 
@@ -36,7 +37,8 @@ This stood out immediately — a `.py` file being served/transferred is not some
 
 📸 *(Export Object list highlighting updates.py)*
 
----
+<img width="1268" height="754" alt="Screenshot_2026-07-31_07-42-16" src="https://github.com/user-attachments/assets/98232651-00c9-4280-a2a6-2f37e61d9d16" />
+
 
 ## 🍪 Extracting the Covert Channel (Cookie Exfiltration)
 
@@ -50,7 +52,8 @@ This returned one `hotel_sess_state=<base64>` cookie per HTTP request — each o
 
 📸 *(Wireshark filter tcp.port==8080 && http.request && http.cookie showing repeated GET / requests)*
 
----
+<img width="1274" height="749" alt="Screenshot_2026-07-31_07-36-31" src="https://github.com/user-attachments/assets/cb982231-8661-4e81-a854-25ac0211da09" />
+
 
 ## 🧩 Cleaning & Reassembling the Data
 
@@ -80,7 +83,8 @@ Baking this recipe on the reassembled string revealed the flag in plaintext.
 
 📸 *(CyberChef recipe: From Base64 → XOR with key 'H', output showing flag)*
 
----
+<img width="1276" height="644" alt="Screenshot_2026-07-31_07-52-59" src="https://github.com/user-attachments/assets/ec4edeee-d978-4603-a462-145eee3017c7" />
+
 
 ## 🏁 Flag
 
