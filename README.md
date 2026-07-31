@@ -111,4 +111,4 @@ THM{V3r4_1s_w4tch1ng_0veR_y0u}
 
 ## 🔗 Reference
 
-- [Packed Light — TryHackMe HackerHolidays](https://tryhackme.com/room/packedlight) <!-- update with actual room URL -->
+- [Packed Light — TryHackMe HackerHolidays]([https://tryhackme.com/room/packedlight](https://tryhackme.com/room/hh-packedlight-02e5330c)) <!-- update with actual room URL -->
