@@ -89,7 +89,7 @@ Baking this recipe on the reassembled string revealed the flag in plaintext.
 ## 🏁 Flag
 
 ```
-THM{V3r4_1s_w4tch1ng_0veR_y0u}
+THM{*****}
 ```
 
 ---
